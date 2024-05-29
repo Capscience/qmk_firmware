@@ -8,6 +8,16 @@
 
 This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](https://ergodox-ez.com) keyboard, and the Clueboard product line.
 
+## Capscience
+
+I use splitkb.com Aurora Corne keyboard, with minor configuration changes in [keyboard.json](/keyboards/splitkb/aurora/corne/rev1/keyboard.json) and [rules.mk](/keyboards/splitkb/aurora/corne/rules.mk). I use heavily modified dvorak for normal use, and qwerty for gaming. You can check out my [keymap configuration](/keyboards/splitkb/aurora/corne/keymaps/Capscience).
+
+Build:
+`qmk compile -kb splitkb/aurora/corne -km Capscience`
+
+Flash:
+`qmk flash splitkb_aurora_corne_rev1_Capscience_liatris.uf2`
+
 ## Documentation
 
 * [See the official documentation on docs.qmk.fm](https://docs.qmk.fm)
